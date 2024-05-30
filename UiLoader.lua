@@ -80,13 +80,13 @@ pcall(function()
 end) 
 UiLoader.Window = UiLoader.Fluent:CreateWindow(
     {
-        Title = "schema",
-        SubTitle = "#xomp-xomp)",
+        Title = "#schemaposse",
+        SubTitle = "womp-womp",
         TabWidth = 160,
         Size = UDim2.fromOffset(500, 290),
-        Acrylic = false, -- The blur may be detectable, setting this to false disables blur entirely
+        Acrylic = false, 
         Theme = "Darker",
-        MinimizeKey = Enum.KeyCode.LeftControl -- Used when theres no MinimizeKeybind
+        MinimizeKey = Enum.KeyCode.LeftControl 
     }
 ) 
 print('loaded ui loader')
